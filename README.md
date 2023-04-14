@@ -58,7 +58,7 @@ def test_negative_coingecko(id):
 
 Результат успешного прохождения набора тестов :
 
-![alt text](result.PNG)
+![alt text](img/result.PNG)
 
 Успехов в Вашей работе!
 
