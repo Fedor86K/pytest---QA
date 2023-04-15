@@ -58,7 +58,7 @@ def test_negative_coingecko(id):
 
 Результат прохождения набора позитивных тестов с использованием невалидных и валидных данных :
 
-![alt text](img/test.PNG)
+![alt text](img/testres.PNG)
 
 Успехов в Вашей работе!
 
