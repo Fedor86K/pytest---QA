@@ -16,7 +16,7 @@ def test_positive_coingecko(id):
     assert id in json_response.keys()
     # Проверяем, наличие ключа "usd" и тип его значения
     assert isinstance(json_response[id].get("rub"), (int, float))
-
+    
 # Декорируем функцию test_negative_coingecko параметризованными тестами с параметром "id",
 # который последовательно принимает значения из списка невалидных тестовых данных
 @pytest.mark.parametrize("id", ["", "1234567890", " @test"])
