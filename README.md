@@ -39,7 +39,7 @@ def test_positive_coingecko(id):
     json_response = json.loads(response.text)
     # Проверяем наличие ключа, соответствующего id в JSON ответе
     assert id in json_response.keys()
-    # Проверяем, наличие ключа "usd" и тип его значения
+    # Проверяем, наличие ключа "rub" и тип его значения
     assert isinstance(json_response[id].get("rub"), (int, float))
 
 # Декорируем функцию test_negative_coingecko параметризованными тестами с параметром "id",
